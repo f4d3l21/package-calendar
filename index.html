@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Calendrier</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="calendar.js" defer></script>
+</head>
+
+<body>
+    <div class="calendar-container">
+        <div class="calendar-header">
+            <button onclick="lastMonth()">&#10094;</button>
+            <p class="current-month"></p>
+            <button onclick="nextMonth()">&#10095;</button>
+        </div>
+        <div class="calendar-body">
+            <ul class="calendar-weekday">
+                <li>Lun</li>
+                <li>Mar</li>
+                <li>Mer</li>
+                <li>Jeu</li>
+                <li>Ven</li>
+                <li>Sam</li>
+                <li>Dim</li>
+            </ul>
+            <ul class="calendar-dates"></ul>
+        </div>
+    </div>
+</body>
+
+</html>
