@@ -1,6 +1,6 @@
 {
   "name": "calendrierfpack",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "calendar.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,7 +9,6 @@
   "author": "f4d3l21",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.20.0"
   },
   "devDependencies": {},
   "description": "https://github.com/f4d3l21/package-calendar.git"

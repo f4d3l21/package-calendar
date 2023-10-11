@@ -6,15 +6,13 @@
     <title>Calendrier</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="calendar.js" defer></script>
 </head>
 
 <body>
     <div class="calendar-container">
         <div class="calendar-header">
-            <button onclick="lastMonth()">&#10094;</button>
-            <p class="current-month"></p>
-            <button onclick="nextMonth()">&#10095;</button>
+            <select id="month-select"></select>
+            <select id="year-select"></select>
         </div>
         <div class="calendar-body">
             <ul class="calendar-weekday">
@@ -31,4 +29,5 @@
     </div>
 </body>
 
+<script src="calendar.js" defer></script>
 </html>

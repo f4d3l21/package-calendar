@@ -10,13 +10,13 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.calendar-header {
+/* .calendar-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 10px;
     background-color: #c9c3c3;
-}
+} */
 
 .current-month {
     margin: 0;
@@ -40,5 +40,5 @@ body {
 }
 
 .calendar-dates li:hover {
-    background-color: #231b1b;
+    background-color: #a67676;
 }
